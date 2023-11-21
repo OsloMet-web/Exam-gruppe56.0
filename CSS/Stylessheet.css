@@ -260,6 +260,33 @@ div.desc {
   
 /* Oslomet Studentforeninger for Pålogginginfo for logg inn og påmeldingsskjema for foreninger*/
 
+#oslomet p {
+    margin: 5px 0; /* Juster avstanden mellom hver avsnitt */
+    }
+
+#oslomet ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+#oslomet li {
+    display: inline-block;
+    margin: 0 5px; /* Juster avstanden mellom hvert listeelement */
+    }
+    
+#oslomet li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+    }
+    
+#oslomet a {
+    display: inline-block;
+    }
+    
+
 .container{ /* Styling for container elements with padding */
     padding: 16px;
     width: 50%; /* Set width and center the container */
