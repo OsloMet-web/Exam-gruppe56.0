@@ -305,15 +305,15 @@ div.desc {
 
 
 
-input[type=text], input[type=password]{/* Styling for input fields */
+input[type=text], input[type=password]{/* Styling for input felt */
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background: #f1f1f1;
+    background: #ffffff;
 }
-input[type=text]:focus, input[type=password]:focus{ /* Styling for input fields when focused */
+input[type=text]:focus, input[type=password]:focus{ /* Styling for input felt når den kommer inn i fokus */
     background-color: #ddd;
     outline: none;
 }
@@ -341,10 +341,10 @@ hr{ /* Overwrite default styles for hr */
 
 .registerbtn:hover {
     opacity: 1;
-}/* hvorfor denne her */
+}
 
 a { /* glemt passord*/ /* Styling for linker */
-    color: rgb(30, 146, 255)
+    color: rgb(77, 8, 238)
 }
 .signin{ /* styling for log inn delen*/
     background-color: #f1f1f1;
