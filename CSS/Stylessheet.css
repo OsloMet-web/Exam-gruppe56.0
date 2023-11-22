@@ -22,10 +22,39 @@ body {
 .text { 
     text-align: center;
     padding: 0;
-    margin-left: 3rem;
+    margin-inline: 3rem;
 }
 
+.text p{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    text-align: center;
+}
 
+    
+.text ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+.vesta li {
+    display: inline-block;
+    margin: 0 5px; /* Juster avstanden mellom hvert listeelement */
+    }
+    
+.text li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+    }
+    
+.text a {
+    display: inline-block;
+    }
 
 .medium_heading {
     /* for underoverskrift (h2) */
@@ -204,16 +233,20 @@ nav.navbar {
 
 /* css kun for topical*/
 
-p.vesta{
+.vesta {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    width: 80%; 
+    }
+
+.vesta p {
     text-align: center;
     font-size: 20px;
     font-family: "Times New Roman", Times, serif;
     color: black;
-    margin-left: 3rem;
+    
 }
-.vesta {
-    margin: 5px 0; /* Juster avstanden mellom hver avsnitt */
-    }
 
     
 .vesta ul {
@@ -268,39 +301,11 @@ div.desc {
 .container_topical { 
     display: flex;
     justify-content: center; 
-    
-
 }
 
   
 /* Oslomet Studentforeninger for Pålogginginfo for logg inn og påmeldingsskjema for foreninger*/
 
-#oslomet p {
-    margin: 5px 0; /* Juster avstanden mellom hver avsnitt */
-    }
-
-#oslomet ul {
-    list-style: none;
-    padding: 0;
-    }
-    
-#oslomet li {
-    display: inline-block;
-    margin: 0 5px; /* Juster avstanden mellom hvert listeelement */
-    }
-    
-#oslomet li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 10px 0;
-    }
-    
-#oslomet a {
-    display: inline-block;
-    }
-    
 
 .container{ /* Styling for container elements with padding */
     padding: 16px;
@@ -308,7 +313,7 @@ div.desc {
     margin: auto; 
 }
 
-input[type=text], input[type=password]{/* Full-width input fields */
+input[type=text], input[type=password]{/* Styling for input fields */
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -316,7 +321,7 @@ input[type=text], input[type=password]{/* Full-width input fields */
     border: none;
     background: #f1f1f1;
 }
-input[type=text]:focus, input[type=password]:focus{ /* Input focus styles */
+input[type=text]:focus, input[type=password]:focus{ /* Styling for input fields when focused */
     background-color: #ddd;
     outline: none;
 }
@@ -346,7 +351,7 @@ hr{ /* Overwrite default styles for hr */
     opacity: 1;
 }/* hvorfor denne her */
 
-a{ /* glemt passord*/ /* Styling for linker */
+a { /* glemt passord*/ /* Styling for linker */
     color: rgb(30, 146, 255)
 }
 .signin{ /* styling for log inn delen*/
