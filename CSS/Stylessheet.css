@@ -227,8 +227,18 @@ nav.navbar {
 /* kun for accesibility*/
 .container{ /* Styling for container elements with padding */
     padding: 16px;
-    width: 50%; /* Set width and center the container */
-    margin: auto; 
+    display: flex;
+    flex-direction: row;/*legg innholdet på motsatt side*/
+    align-items: center;
+
+
+}
+
+#content.container img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    
 }
 
 /* css kun for topical*/
