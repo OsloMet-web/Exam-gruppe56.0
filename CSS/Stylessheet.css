@@ -1,7 +1,7 @@
 /* css for sammen sidene*/
   /* overskrifter og tekster*/
 
-body {
+  body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -9,17 +9,8 @@ body {
 }
 
 .main_heading {
-    /* for hovedoverskrift (h1) */
     text-align: center;
     font-size: 50px;
-    font-family: "Times New Roman", Times, serif;
-    color: black;
-}
-
-.medium_heading {
-    /* for underoverskrift (h2) */
-    text-align: center;
-    font-size: 20px;
     font-family: "Times New Roman", Times, serif;
     color: black;
 }
@@ -27,24 +18,18 @@ body {
 .text { 
     text-align: center;
     padding: 0;
-    margin-inline: 3rem;
 }
 
-.text p{
-    text-align: center;
-    font-size: 20px;
-    font-family: "Times New Roman", Times, serif;
-    color: black;
-    text-align: center;
-}
+.text p {
+    margin: 5px 0; /* Juster avstanden mellom hver avsnitt */
+    }
 
-    
 .text ul {
     list-style: none;
     padding: 0;
     }
     
-.vesta li {
+.text li {
     display: inline-block;
     margin: 0 5px; /* Juster avstanden mellom hvert listeelement */
     }
@@ -60,7 +45,15 @@ body {
 .text a {
     display: inline-block;
     }
+    
 
+.medium_heading {
+    /* for underoverskrift (h2) */
+    text-align: center;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
 
 
 /* Navigasjonsnbar*/
@@ -202,7 +195,9 @@ nav.navbar {
     position: absolute;
     top: 0;
   }
+#content {
 
+}
 
 /* kun css for forside index.html*/
 
@@ -225,46 +220,21 @@ nav.navbar {
 
 
 /* kun for accesibility*/
-#content.container{ /* Styling for container elements with padding */
-    padding: 16px;
-    display: flex;
-    flex-direction: row;/*legg innholdet på motsatt side*/
-    align-items: center; 
 
-
-}
-
-#content.container img{
-    max-width: 100%;
-    height: auto;
-    margin-left: 20px;
-    
-}
 
 /* css kun for topical*/
 
-.vesta {
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    width: 80%; 
+.vesta p {
+    margin: 5px 0; /* Juster avstanden mellom hver avsnitt */
     }
 
-.vesta p {
-    text-align: center;
-    font-size: 20px;
-    font-family: "Times New Roman", Times, serif;
-    color: black;
-    
-}
-
-    
 .vesta ul {
     list-style: none;
     padding: 0;
     }
     
-    
+
+
 .vesta li {
     display: flex;
     flex-direction: column;
@@ -307,22 +277,28 @@ div.desc {
 .container_topical { 
     display: flex;
     justify-content: center; 
+    
+
 }
 
   
 /* Oslomet Studentforeninger for Pålogginginfo for logg inn og påmeldingsskjema for foreninger*/
 
+.container{ /* Styling for container elements with padding */
+    padding: 16px;
+    width: 50%; /* Set width and center the container */
+    margin: auto; 
+}
 
-
-input[type=text], input[type=password]{/* Styling for input felt */
+input[type=text], input[type=password]{/* Full-width input fields */
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background: #ffffff;
+    background: #f1f1f1;
 }
-input[type=text]:focus, input[type=password]:focus{ /* Styling for input felt når den kommer inn i fokus */
+input[type=text]:focus, input[type=password]:focus{ /* Input focus styles */
     background-color: #ddd;
     outline: none;
 }
@@ -343,15 +319,17 @@ hr{ /* Overwrite default styles for hr */
     opacity: 0.9;
     display: block; /* Legg til følgende regler for å sentrere knappen */
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+
+    
 }
 
 .registerbtn:hover {
     opacity: 1;
-}
+}/* hvorfor denne her */
 
-a { /* glemt passord*/ /* Styling for linker */
-    color: rgb(77, 8, 238)
+a{ /* glemt passord*/ /* Styling for linker */
+    color: rgb(30, 146, 255)
 }
 .signin{ /* styling for log inn delen*/
     background-color: #f1f1f1;
@@ -373,7 +351,7 @@ a { /* glemt passord*/ /* Styling for linker */
 .column {
     flex: 1; /* Fordeler plassen jevnt mellom kolonnene */
     max-width: 33.33%;
-    margin: 0 5px; /* skaper litt mellomrom på hver side av bildene*/
+    margin: 0 5px; /* legger til mellomrom mellom bildene*/
 }
 
 .column img {
@@ -386,7 +364,7 @@ a { /* glemt passord*/ /* Styling for linker */
 /* Clear floats after image containers for oslomet foreninger */
 .row {
     display: flex;
-    margin: 0 -5px; /* kompenserer for mellomrommet mellom bildene */ 
+    margin: 0 -5px; /* kompenserer for ekstra mellomrom mellom bildene*/
 }
 
 .blue-button{
