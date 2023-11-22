@@ -371,7 +371,7 @@ a{ /* glemt passord*/ /* Styling for linker */
 /* Clear floats after image containers for oslomet foreninger */
 .row {
     display: flex;
-    margin: 0 -5px; /* kompenserer for mellomrommet mellom bildene 
+    margin: 0 -5px; /* kompenserer for mellomrommet mellom bildene */ 
 }
 
 .blue-button{
