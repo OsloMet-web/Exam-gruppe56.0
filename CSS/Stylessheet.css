@@ -369,6 +369,7 @@ a{ /* glemt passord*/ /* Styling for linker */
 .column {
     flex: 1; /* Fordeler plassen jevnt mellom kolonnene */
     max-width: 33.33%;
+    margin: 0 5px; /* skaper litt mellomrom på hver side av bildene*/
 }
 
 .column img {
@@ -381,6 +382,7 @@ a{ /* glemt passord*/ /* Styling for linker */
 /* Clear floats after image containers for oslomet foreninger */
 .row {
     display: flex;
+    margin: 0 -5px; /* kompenserer for mellomrommet mellom bildene */ 
 }
 
 .blue-button{
