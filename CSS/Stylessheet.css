@@ -304,7 +304,6 @@ div.desc {
 
 
 
-
 input[type=text], input[type=password]{/* Styling for input felt */
     width: 100%;
     padding: 15px;
@@ -334,9 +333,7 @@ hr{ /* Overwrite default styles for hr */
     opacity: 0.9;
     display: block; /* Legg til følgende regler for å sentrere knappen */
     margin-left: auto;
-    margin-right: auto;
-
-    
+    margin-right: auto; 
 }
 
 .registerbtn:hover {
