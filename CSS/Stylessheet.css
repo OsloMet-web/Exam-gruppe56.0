@@ -9,7 +9,7 @@ body {
 }
 
 .main_heading {
-    Text-align: center;
+    text-align: center;
     font-size: 50px;
     font-family: "Times New Roman", Times, serif;
     color: black;
@@ -204,9 +204,7 @@ nav.navbar {
     position: absolute;
     top: 0;
   }
-#content {
 
-}
 
 /* kun css for forside index.html*/
 
@@ -254,10 +252,6 @@ nav.navbar {
     padding: 0;
     }
     
-.vesta li {
-    display: inline-block;
-    margin: 0 5px; /* Juster avstanden mellom hvert listeelement */
-    }
     
 .vesta li {
     display: flex;
