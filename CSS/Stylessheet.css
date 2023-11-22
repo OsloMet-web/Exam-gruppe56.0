@@ -225,7 +225,7 @@ nav.navbar {
 
 
 /* kun for accesibility*/
-.container{ /* Styling for container elements with padding */
+#content.container{ /* Styling for container elements with padding */
     padding: 16px;
     display: flex;
     flex-direction: row;/*legg innholdet på motsatt side*/
